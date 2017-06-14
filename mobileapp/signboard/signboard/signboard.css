@@ -1,0 +1,83 @@
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	background: url(bg2.jpg);
+	background-attachment:fixed;
+}
+
+body {
+	background: url(bg.png) no-repeat;
+	background-position:center center;
+}
+
+#midasi {
+	text-align: left;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+    color: #494949;
+}
+
+#displayPanel{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: xx-large;
+	color:#FFFFFF;
+}
+
+#controlPanel{
+	right:10px;
+	bottom: 10px;
+	position: absolute;
+}
+
+input[type="text"] {
+  border: 1px solid #999;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #ff9900;
+  outline: 0;
+}
+
+#textBox{
+	padding:10px;
+	font-size:1.3em;
+	color:#000000;
+	margin:0 0 20px;
+	width:300px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px 					rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+
+#clearButton {
+   background: #663300;
+    border: 1px solid #;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	font-size:1.4em;
+    color: #ffffff;
+    width: 100px;
+    padding: 10px 0;
+
+}
+
+#applyButton {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 3px 40px;
+    background-color: #248;
+    color: #fff;
+    border-style: none;	
+}
+
+

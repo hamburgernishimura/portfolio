@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, user-scalable=no">
+		<title>-GoogleMap-</title>
+		<link rel="stylesheet" href="css/jquery.mobile.css">
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile.js"></script>
+		<script src="geo.js"></script>
+	</head>
+	<body>
+		<!-- トップページ -->
+		<div data-role="page">
+			<div data-role="header">
+				<h1>現在地の情報</h1>
+		</div>
+		<div data-role="content">
+					<ul data-role="listview">
+						<li><a href="#position">現在地の情報を確認</a></li>
+						<li><a href="#map">現在地を地図に表示</a></li>
+					</ul>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="foot">
+					<p>-ローカル地図屋-</p>
+				</div>
+			</div>
+			<!--現在地の情報ページ-->
+			<div data-role="page" id="pisition" data-add-back-btn="true" data-back>
+				<div data-role="header">
+					<h1>現在地の情報</h1>
+				</div>
+				<div data-role="content">
+					<p id="geoData">現在地の情報を取得中...</p>
+				</div>
+				<div data-role="footer" data-position="fixed" data-id="foot">
+					<p>-GoogleMap-</p>
+			</div>
+		</div>
+	<!-- 地図表示ページ -->
+	<div data-role="page" id="map" data-add-back-btn="true" data-back-btn>
+		<div data-role="header">
+			<h1>マップ</h1>
+		</div>
+		<div id="gmap" data-role="content" style="width: 100%; height: 600px;">
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="foot">
+			<p>-GoogleMap-</p>
+		</div>
+	</div>
+	</body>
+</html>

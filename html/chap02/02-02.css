@@ -1,0 +1,96 @@
+/* chap02基本スタイル */
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+   /* background-image: url(images/back.png);*/
+}
+
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	border: 2px solid #E3E3E3;
+	background-color: #FFFFFF;
+}
+
+#header{
+	width: 800px;
+}
+
+#main h2 {
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 15px;
+	background-color: #b8e964;
+	line-height: 32px;
+	padding-left: 10px;
+	}
+#main {	
+	padding: 10px 0px;
+	background-color: #FFF;
+	float:left;
+	width: 700px;
+}
+
+#footer{
+	width: 800px;
+}
+
+.box{
+	/*+border: 1px solid #BBBBBB;*/
+	padding: 10px;
+	margin: 30px 20px;
+}
+
+#copyright{
+	/*text-align: right;*/
+	width: auto;
+	color: #000000;
+	font-size: 12px;
+	margin: 0;
+	border-top: solid 5px #b8e964;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#side{
+ 	width:150px;
+ 	height:auto;
+ 	float: right;
+ 	margin: 10px 0px 0px 10px;
+ }
+ 
+#side_menu{
+	font-size: 36px;
+	color: #000000;
+	text-align: center;
+	font-weight: 900;
+	line-height: 120px;
+	height: 120px;
+	width: auto;
+	background-color: #b8e964;
+	border-style:solid;
+	border-color: #33cc33;
+	border-width: 10px 0px 10px 0px;
+}
+
+.side_button{
+	color: #000000;
+	text-align: center;
+	font-weight: 800;
+	line-height: 800;
+	line-height: 30px;
+	height: 30px;
+	width: auto;
+	background-color:#b8e964;
+	border-style: solid;
+	border-color: #33cc33;
+	border-width: 2px 0px 2px 0px;
+	margin: 10px 0;
+}
+
+.clear{
+	clear:both;
+}

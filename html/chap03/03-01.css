@@ -1,0 +1,58 @@
+/*chapter3_応用レイアウト*/
+/*<body>のスタイル*/
+body{
+		background-image: url(images/haikei.jpg)
+}	
+
+
+/*サイドバー１(#side1 #side_menu .box)*/
+#side1{
+		width:150px;
+		float:left;
+		margin-top:10px
+}
+
+#side_menu{
+		width: auto;
+		text-align: center;
+		height: 120px;
+		background-color: #000000;
+}
+
+.side_button{
+		color:#FFFFFF;
+		text-align: center;
+		font-weight: 800;
+		line-height: 30px;
+		height: 30px;
+		width: auto;
+		background-color: #000000;
+		margin: 10px 0;
+}
+
+/*サイドバー２(side)*/
+#side2{
+		float: right;
+		width: 120px;
+		background-color: #FFFFFF;
+		text-align: center;
+		margin-top: 10px;
+}
+
+/*メインコンテンツ(#main.box)*/
+#main{
+		padding:0px 15px;
+		margin: 10px 120px 10px 160px;
+}
+
+.box{
+		border: 1px solid #BBBBBB;
+		padding: 10px;
+		margin: 30px auto;
+}
+
+
+/*.clearのスタイル*/
+.clear{
+		clear:both;
+}

@@ -1,0 +1,52 @@
+/* chap02基本スタイル */
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-image: url(images/back.png);
+}
+
+
+#container{
+	width: 800px;
+	margin: 0 auto;
+	border: 2px solid #E3E3E3;
+	background-color: #FFFFFF;
+}
+
+#header{
+	width: 800px;
+}
+
+#main{
+	padding: 0 20px;
+	background-color: #FFFFFF;
+}
+
+#main h2{
+	font-size:1em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #0099ff;
+	line-height: 32px;
+	padding-left: 10px;
+}
+
+#footer{
+	width: 800px;
+}
+
+.box{
+	/*border: 1px solid #BBBBBB;*/
+	padding: 10px;
+	margin: 30px 20px;
+}
+
+#copyright#copyright{
+	width: auto;
+	border-top: solid 5px #0099ff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}

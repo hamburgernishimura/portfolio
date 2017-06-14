@@ -1,0 +1,146 @@
+	body{
+		margin: 0;
+		background-color: #ADD8E6;
+		/*background-image: url(images/.png);
+		background-repeat: repeat;
+		*/
+	}
+	
+	#container{
+		width: 1024px;
+		margin: auto;
+		background-color: #ADD8E6;
+	}
+	
+	#wrapper{
+		width: 805px;
+		padding: 0 0px;
+		margin: auto;
+	}
+	
+	#content{
+		width: 600px;
+		float: left;
+		margin: 30px 0;
+	}
+	
+	#sidebar{
+		width: 180px;
+		float: right;
+		margin: 30px 0;
+	}
+	
+	#header{
+		background-image: url(image/yasai.png);
+		border-left: solid 1px #8FBC8F;
+		border-right: solid 1px #8FBC8F;
+		width: auto;
+		height: 100px;
+		border-bottom: solid 1px #8FBC8F;
+		padding: 20px;
+	    font-size: 0.875em;
+		color: #AAAAAA;
+	}
+	
+	.nav{
+		font-size: 12px;
+		width: auto;
+		height: 30px;
+		background-color: #ADD8E6;
+		border-left: solid 1px #8FBC8F;
+	}
+	
+	.nav ul{
+		margin: auto;
+		padding: 0;
+	}
+	
+	.nav li{
+		list-style-type: none;
+		float: left;
+	}
+	
+	.nav li a{
+		display: block;
+		width: 200px;
+		line-height: 30px;
+		border-right: solid 1px #AAAAAA;
+		border-right: solid 1px #AAAAAA;
+		background-color: #FF8C00;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	.nav li a:hover{
+		background-color: #8FBC8F;
+	}
+	
+	.post{
+		width: 600px;
+		height: 400px;
+		border: solid 1px #8FBC8F;
+	}
+	
+	.post h2 {
+		font-size: 16px;
+		margin: 0;
+		margin-bottom: 15px;
+		background-color: #FF8C00;
+		line-height: 32px;
+		padding-left: 10px;
+		color: #FFFFFF;
+	}
+	
+	.posttext{
+		font-size: 14px;
+		line-height: 1.5;
+		margin: 0;
+		margin-bottom: 20px;
+		padding-left: 10px;
+	}
+
+	.menu{
+		background-color: #FF8C00;
+		width: auto;
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	
+	.menu_inner{
+		background-position: left bottom;
+		padding: 20px;
+	}
+	
+	.menu li{
+		border-bottom: solid 1px #8FBC8F;
+		padding-bottom: 8px;
+		margin-bottom: 8px;
+		line-height: 1.2;
+		list-style-type: none;}
+		
+	.menu li a{
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	.menu ul{
+		margin: 0;
+		padding: 0;
+		border-top: solid 1px #8FBC8F;
+		padding-top: 8px;
+	}
+	
+	.box{
+		width: 0;
+		height: 0;
+		border: solid 1px #8FBC8F;
+	}
+	
+	#footer{
+		width: auto;
+		text-align: center;
+		background-color: #FF8C00;
+		clear: both;
+		color: #FFFFFF;
+	}
